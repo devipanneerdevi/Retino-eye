@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f6ff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 700px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #1f4e79;
+}
+
+.upload-box {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+input {
+    margin: 20px;
+}
+
+button {
+    background: #1f4e79;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #163a5c;
+}
+
+#preview img {
+    max-width: 300px;
+    max-height: 300px;
+    margin: 15px;
+    border-radius: 8px;
+}
+
+.result-box {
+    margin-top: 25px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
